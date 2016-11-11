@@ -1,0 +1,95 @@
+body{
+	background: url(background.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+	
+.b{
+	border-radius: 6px;
+	background-color: gray;	
+	border: none;
+	font-size: 20px;
+}
+
+#cover{
+	border: 2px solid black;
+	align-items: center;
+	margin:0 auto	;
+	display: block;
+	width: 350px;
+	height: 350px;
+	margin-top: 70px;
+	border: white 3px;
+	box-shadow:0px 0px 25px 25px navy;	
+	border-radius: 5px
+
+}
+
+#buttons{
+	margin:left 450px;
+	text-align: center
+}
+
+#songn{
+	font-family: Arial Black;
+	text-align: center;
+	align-items: center;
+	color:#f442b0;
+	opacity: .99%;
+}
+
+.wrapper{
+	border: 4px solid black;
+	background-color: #CFC9C4;
+	width: 75%;
+	margin:0 auto;
+	border-radius: 12px;
+	opacity: .8;
+	margin-top: 25px;
+	padding: 20px;
+}
+
+#play {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+#play:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pause {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+
+#pause:hover {
+    background-color: red;
+    color: white;
+}
+
+#next {
+    background-color: white;
+    color: black;
+    border: 2px solid purple;
+}
+
+#next:hover {
+    background-color: purple;
+    color: white;
+}
+
+#prev {
+    background-color: white;
+    color: black;
+    border: 2px solid purple;
+}
+
+
+#prev:hover {
+    background-color: purple;
+    color: white;
+}
+
